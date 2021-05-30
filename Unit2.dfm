@@ -1,4 +1,4 @@
-object tlPrincipal: TtlPrincipal
+object TForm2: TTForm2
   Left = 0
   Top = 0
   BorderIcons = [biSystemMenu]
@@ -101,5 +101,30 @@ object tlPrincipal: TtlPrincipal
       'Todos'
       'Concluidos'
       'Pendentes')
+  end
+  object Panel3: TPanel
+    Left = 40
+    Top = 144
+    Width = 849
+    Height = 489
+    BevelOuter = bvNone
+    Caption = 'Panel3'
+    TabOrder = 4
+    object ListBox1: TListBox
+      Left = 0
+      Top = 0
+      Width = 825
+      Height = 497
+      BevelInner = bvNone
+      BorderStyle = bsNone
+      ItemHeight = 20
+      Items.Strings = (
+        'Primeiro item de teste - At'#233' XX/XX - Pendente')
+      TabOrder = 0
+      Font.Height = -18
+      Font.Name = 'Roboto'
+      Font.Style = []
+      ParentFont = False
+    end
   end
 end
