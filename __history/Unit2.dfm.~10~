@@ -1,4 +1,4 @@
-object tlPrincipal: TtlPrincipal
+object TForm2: TTForm2
   Left = 0
   Top = 0
   BorderIcons = [biSystemMenu]
@@ -101,5 +101,44 @@ object tlPrincipal: TtlPrincipal
       'Todos'
       'Concluidos'
       'Pendentes')
+  end
+  object Panel3: TPanel
+    Left = 40
+    Top = 144
+    Width = 849
+    Height = 489
+    BevelOuter = bvNone
+    Caption = 'Panel3'
+    TabOrder = 4
+    object ListBox1: TListBox
+      Left = 0
+      Top = 0
+      Width = 753
+      Height = 497
+      BevelInner = bvNone
+      BorderStyle = bsNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -18
+      Font.Name = 'Roboto'
+      Font.Style = []
+      ItemHeight = 22
+      Items.Strings = (
+        'Primeiro item de teste - At'#233' XX/XX - Pendente')
+      ParentFont = False
+      TabOrder = 0
+    end
+    object CheckBox1: TCheckBox
+      Left = 759
+      Top = 0
+      Width = 97
+      Height = 17
+      Caption = 'Conclu'#237'do?'
+      TabOrder = 1
+      Font.Height = -12
+      Font.Name = 'Roboto'
+      Font.Style = []
+      ParentFont = False
+    end
   end
 end

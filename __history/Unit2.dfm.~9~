@@ -111,36 +111,20 @@ object TForm2: TTForm2
     Caption = 'Panel3'
     TabOrder = 4
     object ListBox1: TListBox
-      Left = 16
-      Top = -3
-      Width = 721
+      Left = 0
+      Top = 0
+      Width = 825
       Height = 497
       BevelInner = bvNone
       BorderStyle = bsNone
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
+      ItemHeight = 20
+      Items.Strings = (
+        'Primeiro item de teste - At'#233' XX/XX - Pendente')
+      TabOrder = 0
       Font.Height = -18
       Font.Name = 'Roboto'
       Font.Style = []
-      ItemHeight = 22
-      Items.Strings = (
-        'Primeiro item de teste - At'#233' XX/XX - Pendente')
       ParentFont = False
-      TabOrder = 0
-    end
-    object CheckBox1: TCheckBox
-      Left = 756
-      Top = 2
-      Width = 97
-      Height = 17
-      Caption = 'Conclu'#237'do'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -15
-      Font.Name = 'Roboto'
-      Font.Style = []
-      ParentFont = False
-      TabOrder = 1
     end
   end
 end
