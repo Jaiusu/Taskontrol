@@ -20,7 +20,7 @@ type
     procedure Panel1Realease(Sender: TObject);
     procedure HoverLista(Sender: TObject);
     procedure NoHoverLista(Sender: TObject);
-    procedure ListBox1DblClick(Sender: TObject);
+    procedure ListBox1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -49,11 +49,6 @@ end;
 procedure TTForm2.HoverLista(Sender: TObject);
 begin
   lblDica.Caption := 'Clique duas vezes sobre um item para ver detalhes, excluir ou marcar como concluído.';
-end;
-
-procedure TTForm2.ListBox1DblClick(Sender: TObject);
-begin
-  Form1.Show();
 end;
 
 procedure TTForm2.NoHoverLista(Sender: TObject);

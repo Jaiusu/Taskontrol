@@ -98,8 +98,13 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Unit2.pas">
+        <DCCReference Include="vPrincipal.pas">
             <Form>TForm2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Classe.Tarefa.pas"/>
+        <DCCReference Include="vAddTarefa.pas">
+            <Form>frmAddTarefa</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

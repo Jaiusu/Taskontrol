@@ -13,7 +13,6 @@ object TForm2: TTForm2
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -140,10 +139,9 @@ object TForm2: TTForm2
       Font.Style = []
       ItemHeight = 24
       Items.Strings = (
-        'Primeiro item de teste - Categoria - At'#233' XX/XX - Pendente')
+        'Primeiro item de teste - At'#233' XX/XX - Pendente')
       ParentFont = False
       TabOrder = 0
-      OnDblClick = ListBox1DblClick
       OnMouseEnter = HoverLista
       OnMouseLeave = NoHoverLista
     end

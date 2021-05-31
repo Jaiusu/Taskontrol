@@ -20,6 +20,7 @@ type
     procedure Panel1Realease(Sender: TObject);
     procedure HoverLista(Sender: TObject);
     procedure NoHoverLista(Sender: TObject);
+    procedure ListBox1Click(Sender: TObject);
     procedure ListBox1DblClick(Sender: TObject);
   private
     { Private declarations }
@@ -53,7 +54,7 @@ end;
 
 procedure TTForm2.ListBox1DblClick(Sender: TObject);
 begin
-  Form1.Show();
+  TForm1.Show();
 end;
 
 procedure TTForm2.NoHoverLista(Sender: TObject);

@@ -143,7 +143,7 @@ object TForm2: TTForm2
         'Primeiro item de teste - Categoria - At'#233' XX/XX - Pendente')
       ParentFont = False
       TabOrder = 0
-      OnDblClick = ListBox1DblClick
+      OnClick = ListBox1Click
       OnMouseEnter = HoverLista
       OnMouseLeave = NoHoverLista
     end

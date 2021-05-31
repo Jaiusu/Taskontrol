@@ -1,4 +1,4 @@
-unit vAddTarefa;
+unit vVerTarefa;
 
 interface
 
@@ -8,7 +8,7 @@ uses
   Vcl.ExtCtrls;
 
 type
-  TfrmAddTarefa = class(TForm)
+  TfrmVerTarefa = class(TForm)
     Label1: TLabel;
     edtTitulo: TEdit;
     Label2: TLabel;
@@ -26,13 +26,13 @@ type
   end;
 
 var
-  frmAddTarefa: TfrmAddTarefa;
+  frmVerTarefa: TfrmVerTarefa;
 
 implementation
 
 {$R *.dfm}
 
-procedure TfrmAddTarefa.btnCancelarClick(Sender: TObject);
+procedure TfrmVerTarefa.btnCancelarClick(Sender: TObject);
 begin
   Close;
 end;

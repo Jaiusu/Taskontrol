@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, Vcl.StdCtrls, vAddTarefa, vVerTarefa;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, Vcl.StdCtrls, vAddTarefa;
 
 type
   TTForm2 = class(TForm)
@@ -20,7 +20,6 @@ type
     procedure Panel1Realease(Sender: TObject);
     procedure HoverLista(Sender: TObject);
     procedure NoHoverLista(Sender: TObject);
-    procedure ListBox1DblClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,7 +37,7 @@ implementation
 procedure TTForm2.Panel1Click(Sender: TObject);
 begin
   Panel1.Color := clBlue;
-  frmAddTarefa.Show();
+  TfrmAddTarefa.Show();
 end;
 
 procedure TTForm2.Panel1Realease(Sender: TObject);
@@ -49,11 +48,6 @@ end;
 procedure TTForm2.HoverLista(Sender: TObject);
 begin
   lblDica.Caption := 'Clique duas vezes sobre um item para ver detalhes, excluir ou marcar como concluído.';
-end;
-
-procedure TTForm2.ListBox1DblClick(Sender: TObject);
-begin
-  Form1.Show();
 end;
 
 procedure TTForm2.NoHoverLista(Sender: TObject);

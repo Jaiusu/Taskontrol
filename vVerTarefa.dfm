@@ -1,4 +1,4 @@
-object frmAddTarefa: TfrmAddTarefa
+object Form1: TForm1
   Left = 0
   Top = 0
   BorderIcons = []
@@ -19,9 +19,9 @@ object frmAddTarefa: TfrmAddTarefa
   object Label1: TLabel
     Left = 32
     Top = 24
-    Width = 136
+    Width = 155
     Height = 23
-    Caption = 'Adicionar tarefa'
+    Caption = 'Detalhes da tarefa'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
@@ -68,57 +68,46 @@ object frmAddTarefa: TfrmAddTarefa
     Font.Style = []
     ParentFont = False
   end
-  object edtTitulo: TEdit
+  object lblTituloVer: TLabel
     Left = 32
     Top = 88
-    Width = 305
-    Height = 26
+    Width = 151
+    Height = 18
+    Caption = 'Primeiro item de teste'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
     Font.Name = 'Roboto'
     Font.Style = []
     ParentFont = False
-    TabOrder = 0
   end
-  object Edit1: TEdit
+  object lblCategoriaVer: TLabel
     Left = 32
     Top = 152
-    Width = 145
-    Height = 26
+    Width = 65
+    Height = 18
+    Caption = 'Categoria'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
     Font.Name = 'Roboto'
     Font.Style = []
     ParentFont = False
-    TabOrder = 1
   end
-  object CalendarPicker1: TCalendarPicker
+  object lblDataVer: TLabel
     Left = 424
-    Top = 82
-    Height = 32
-    CalendarHeaderInfo.DaysOfWeekFont.Charset = DEFAULT_CHARSET
-    CalendarHeaderInfo.DaysOfWeekFont.Color = clWindowText
-    CalendarHeaderInfo.DaysOfWeekFont.Height = -13
-    CalendarHeaderInfo.DaysOfWeekFont.Name = 'Segoe UI'
-    CalendarHeaderInfo.DaysOfWeekFont.Style = []
-    CalendarHeaderInfo.Font.Charset = DEFAULT_CHARSET
-    CalendarHeaderInfo.Font.Color = clWindowText
-    CalendarHeaderInfo.Font.Height = -20
-    CalendarHeaderInfo.Font.Name = 'Segoe UI'
-    CalendarHeaderInfo.Font.Style = []
-    Color = clWindow
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clGray
-    Font.Height = -16
-    Font.Name = 'Segoe UI'
+    Top = 88
+    Width = 76
+    Height = 18
+    Caption = '07/06/2021'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Roboto'
     Font.Style = []
     ParentFont = False
-    TabOrder = 2
-    TextHint = 'select a date'
   end
-  object btnCancelar: TPanel
+  object btnCancelar2: TPanel
     Left = 344
     Top = 176
     Width = 129
@@ -133,17 +122,17 @@ object frmAddTarefa: TfrmAddTarefa
     Font.Style = []
     ParentBackground = False
     ParentFont = False
-    TabOrder = 3
-    OnClick = btnCancelarClick
+    TabOrder = 0
+    OnClick = btnCancelar2Click
   end
-  object btnAdicionar2: TPanel
+  object btnDeletar: TPanel
     Left = 487
     Top = 176
     Width = 129
     Height = 41
     BevelOuter = bvNone
-    Caption = 'Adicionar'
-    Color = clHotLight
+    Caption = 'Excluir'
+    Color = 166
     Font.Charset = ANSI_CHARSET
     Font.Color = clWhite
     Font.Height = -15
@@ -151,6 +140,6 @@ object frmAddTarefa: TfrmAddTarefa
     Font.Style = []
     ParentBackground = False
     ParentFont = False
-    TabOrder = 4
+    TabOrder = 1
   end
 end
