@@ -1,0 +1,25 @@
+unit Classe.Tarefa;
+
+interface
+
+uses System.Sysutils, vVerTarefa;
+
+type
+  TTarefa = class
+
+public
+  Titulo : String;
+  Categoria : String;
+  Prazo : String;
+  Pendente : boolean;
+  procedure ExibirDetalhes();
+end;
+
+implementation
+  procedure TTarefa.ExibirDetalhes;
+  begin
+    TForm1.lblTituloVer.Caption := Titulo;
+    TForm1.lblCategoriaVer.Caption := Categoria;
+    TForm1.lblDataVer.Caption := Prazo;
+  end;
+end.

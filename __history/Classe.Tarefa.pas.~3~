@@ -1,0 +1,23 @@
+unit Classe.Tarefa;
+
+interface
+
+uses System.Sysutils, vVerTarefa;
+
+type
+  TTarefa = class
+
+public
+  Titulo : String;
+  Categoria : String;
+  Prazo : String;
+  Pendente : boolean;
+  procedure ExibirDetalhes();
+end;
+
+implementation
+  procedure TTarefa.ExibirDetalhes;
+  begin
+
+  end;
+end.

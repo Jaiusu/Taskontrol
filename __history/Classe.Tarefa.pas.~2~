@@ -1,0 +1,20 @@
+unit Classe.Tarefa;
+
+interface
+
+uses System.Sysutils;
+
+type
+  TTarefa = class
+
+public
+  Titulo : String;
+  Categoria : String;
+  Prazo : String;
+  Pendente : boolean;
+  procedure ;
+end;
+
+implementation
+
+end.
