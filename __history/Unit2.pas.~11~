@@ -7,12 +7,15 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, Vcl.StdCtrls;
 
 type
-  TtlPrincipal = class(TForm)
+  TTForm2 = class(TForm)
     Panel1: TPanel;
     edtPesquisar: TEdit;
     Panel2: TPanel;
     bxFiltrar: TComboBox;
     Label1: TLabel;
+    Panel3: TPanel;
+    ListBox1: TListBox;
+    CheckBox1: TCheckBox;
     procedure Panel1Click(Sender: TObject);
     procedure Panel1Realease(Sender: TObject);
   private
@@ -22,18 +25,18 @@ type
   end;
 
 var
-  tlPrincipal: TtlPrincipal;
+  TForm2: TTForm2;
 
 implementation
 
 {$R *.dfm}
 
-procedure TtlPrincipal.Panel1Click(Sender: TObject);
+procedure TTForm2.Panel1Click(Sender: TObject);
 begin
   Panel1.Color := clBlue;
 end;
 
-procedure TtlPrincipal.Panel1Realease(Sender: TObject);
+procedure TTForm2.Panel1Realease(Sender: TObject);
 begin
   Panel1.Color := clHotLight;
 end;

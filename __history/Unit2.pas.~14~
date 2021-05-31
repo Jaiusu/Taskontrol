@@ -15,6 +15,7 @@ type
     Label1: TLabel;
     Panel3: TPanel;
     ListBox1: TListBox;
+    Label2: TLabel;
     procedure Panel1Click(Sender: TObject);
     procedure Panel1Realease(Sender: TObject);
   private

@@ -15,13 +15,16 @@ type
     Label1: TLabel;
     Panel3: TPanel;
     ListBox1: TListBox;
-    CheckBox1: TCheckBox;
+    lblDica: TLabel;
     procedure Panel1Click(Sender: TObject);
     procedure Panel1Realease(Sender: TObject);
+    procedure HoverLista(Sender: TObject);
+    procedure NoHoverLista(Sender: TObject);
   private
     { Private declarations }
   public
     { Public declarations }
+
   end;
 
 var
@@ -39,6 +42,16 @@ end;
 procedure TTForm2.Panel1Realease(Sender: TObject);
 begin
   Panel1.Color := clHotLight;
+end;
+
+procedure TTForm2.HoverLista(Sender: TObject);
+begin
+  lblDica.Caption := 'Clique duas vezes sobre um item para ver detalhes, excluir ou marcar como concluído.';
+end;
+
+procedure TTForm2.NoHoverLista(Sender: TObject);
+begin
+  lblDica.Caption := '';
 end;
 
 end.

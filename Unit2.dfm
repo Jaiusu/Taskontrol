@@ -28,6 +28,18 @@ object TForm2: TTForm2
     Font.Style = []
     ParentFont = False
   end
+  object lblDica: TLabel
+    Left = 40
+    Top = 136
+    Width = 4
+    Height = 19
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = [fsItalic]
+    ParentFont = False
+  end
   object Panel1: TPanel
     Left = 32
     Top = 40
@@ -104,43 +116,34 @@ object TForm2: TTForm2
   end
   object Panel3: TPanel
     Left = 40
-    Top = 144
+    Top = 168
     Width = 849
-    Height = 489
+    Height = 465
     BevelOuter = bvNone
     Caption = 'Panel3'
     TabOrder = 4
     object ListBox1: TListBox
       Left = 16
-      Top = -3
-      Width = 721
+      Top = 0
+      Width = 817
       Height = 497
       BevelInner = bvNone
+      BevelOuter = bvNone
       BorderStyle = bsNone
+      Columns = 1
+      DragCursor = crDefault
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
-      Font.Height = -18
+      Font.Height = -20
       Font.Name = 'Roboto'
       Font.Style = []
-      ItemHeight = 22
+      ItemHeight = 24
       Items.Strings = (
         'Primeiro item de teste - At'#233' XX/XX - Pendente')
       ParentFont = False
       TabOrder = 0
-    end
-    object CheckBox1: TCheckBox
-      Left = 756
-      Top = 2
-      Width = 97
-      Height = 17
-      Caption = 'Conclu'#237'do'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -15
-      Font.Name = 'Roboto'
-      Font.Style = []
-      ParentFont = False
-      TabOrder = 1
+      OnMouseEnter = HoverLista
+      OnMouseLeave = NoHoverLista
     end
   end
 end
