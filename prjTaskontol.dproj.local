@@ -3,20 +3,20 @@
 	<Transactions>
     <Transaction>2021/05/29 18:32:08.000.230,=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2021/05/29 19:04:51.000.366,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
-    <Transaction>2021/05/30 20:39:09.000.740,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Project2.dproj=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\prjTaskontol.dproj</Transaction>
-    <Transaction>2021/05/30 21:32:39.000.211,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vPrincipal.pas</Transaction>
-    <Transaction>2021/05/30 21:32:39.000.211,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.dfm=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vPrincipal.dfm</Transaction>
+    <Transaction>2021/05/30 20:39:09.000.740,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\prjTaskontol.dproj=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Project2.dproj</Transaction>
+    <Transaction>2021/05/30 21:32:39.000.211,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vPrincipal.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.pas</Transaction>
+    <Transaction>2021/05/30 21:32:39.000.211,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vPrincipal.dfm=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.dfm</Transaction>
     <Transaction>2021/05/30 21:34:39.000.935,=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.pas</Transaction>
     <Transaction>2021/05/30 21:34:52.000.444,=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.pas</Transaction>
-    <Transaction>2021/05/30 21:37:15.000.761,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Classe.Tarefa.pas</Transaction>
-    <Transaction>2021/05/30 21:39:11.000.005,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.pas</Transaction>
-    <Transaction>2021/05/30 21:39:11.000.005,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.dfm=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.dfm</Transaction>
-    <Transaction>2021/05/30 22:53:11.048,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.pas</Transaction>
-    <Transaction>2021/05/30 22:53:11.048,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.dfm=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.dfm</Transaction>
-    <Transaction>2021/05/30 22:57:37.276,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.pas=</Transaction>
-    <Transaction>2021/05/30 22:57:46.425,=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.pas</Transaction>
-    <Transaction>2021/05/30 23:01:07.870,=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.pas</Transaction>
-    <Transaction>2021/05/30 23:01:22.121,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.dfm=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.dfm</Transaction>
-    <Transaction>2021/05/30 23:01:22.121,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.pas</Transaction>
+    <Transaction>2021/05/30 21:37:15.000.761,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Classe.Tarefa.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.pas</Transaction>
+    <Transaction>2021/05/30 21:39:11.000.005,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.dfm=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.dfm</Transaction>
+    <Transaction>2021/05/30 21:39:11.000.005,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit2.pas</Transaction>
+    <Transaction>2021/05/30 22:53:11.000.048,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.dfm=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.dfm</Transaction>
+    <Transaction>2021/05/30 22:53:11.000.048,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.pas</Transaction>
+    <Transaction>2021/05/30 22:57:37.000.276,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.pas=</Transaction>
+    <Transaction>2021/05/30 22:57:46.000.425,=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vAddTarefa.pas</Transaction>
+    <Transaction>2021/05/30 23:01:07.000.870,=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.pas</Transaction>
+    <Transaction>2021/05/30 23:01:22.000.121,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.dfm=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.dfm</Transaction>
+    <Transaction>2021/05/30 23:01:22.000.121,C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\Unit1.pas=C:\Users\Jailson\OneDrive\Documents\Embarcadero\Studio\Projects\Taskontrol\vVerTarefa.pas</Transaction>
   </Transactions>
 </BorlandProject>

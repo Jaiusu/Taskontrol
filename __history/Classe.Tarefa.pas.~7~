@@ -2,16 +2,14 @@ unit Classe.Tarefa;
 
 interface
 
-uses System.Sysutils, Vcl.Dialogs, Vcl.StdCtrls, vVerTarefa, vAddTarefa, Vcl.WinXCalendars;
+uses System.Sysutils, Vcl.Dialogs, vVerTarefa, vAddTarefa;
 
 type
   TTarefa = class
   FTitulo : String;
   FCategoria : String;
   FPrazo : String;
-  procedure SetTitulo(Valor : String);
-  procedure SetCategoria(Valor : String);
-  procedure SetPrazo(Valor : String);
+
 public
   Pendente : boolean;
   property Titulo : String read FTitulo write SetTitulo;
@@ -37,25 +35,7 @@ implementation
     try
       FTitulo := frmAddTarefa.edtTitulo.Text;
     except
-      Messagedlg('Não foi possível inserir este título', mtError, [mbOK], 0);
-    end;
-  end;
 
-  procedure TTarefa.SetCategoria(Valor2 : String);
-  begin
-    try
-      FCategoria := frmAddTarefa.Edit1.Text;
-    except
-      Messagedlg('Não foi possível inserir esta categoria', mtError, [mbOK], 0);
-    end;
-  end;
-
-  procedure TTarefa.SetPrazo(Valor3 : String);
-  begin
-    try
-      FPrazo := DateToStr(frmAddTarefa.CalendarPicker1);
-    except
-      Messagedlg('Não foi possível inserir esta data', mtError, [mbOK], 0);
     end;
   end;
 end.

@@ -53,9 +53,9 @@ implementation
   procedure TTarefa.SetPrazo(Valor3 : String);
   begin
     try
-      FPrazo := DateToStr(frmAddTarefa.CalendarPicker1);
+      FPrazo := frmAddTarefa.CalendarPicker1;
     except
-      Messagedlg('Não foi possível inserir esta data', mtError, [mbOK], 0);
+      Messagedlg('Não foi possível inserir esta categoria', mtError, [mbOK], 0);
     end;
   end;
 end.
